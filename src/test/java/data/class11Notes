@@ -7,7 +7,7 @@ It means when you type card numbers, San, data cannot be stolen on the way.
 Sometimes api also require certificates.
 2. Options
 Given.relaxedHTTPSValidation() —> is to trust the api without providing certificate
-Given.keyStore(KEySotreFile path, password)
+Given.keyStore(KEyStoreFile path, password)
 For postman —> Preferences,Certificate,Add Certificate
 ===============================================
 How do you test rest api?
