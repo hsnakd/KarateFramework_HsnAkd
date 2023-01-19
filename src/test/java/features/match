@@ -1,0 +1,17 @@
+Marker	        Description
+
+#ignore	        Skip comparison for this field even if the data element or JSON key is present
+#null	        Expects actual value to be null, and the data element or JSON key must be present
+#notnull	    Expects actual value to be not-null
+#present	    Actual value can be any type or even null, but the key must be present (only for JSON / XML, see below)
+#notpresent	    Expects the key to be not present at all (only for JSON / XML, see below)
+#array	        Expects actual value to be a JSON array
+#object	        Expects actual value to be a JSON object
+#boolean	    Expects actual value to be a boolean true or false
+#number	        Expects actual value to be a number
+#string	        Expects actual value to be a string
+#uuid	        Expects actual (string) value to conform to the UUID format
+#regex STR	    Expects actual (string) value to match the regular-expression 'STR' (see examples above)
+#? EXPR	        Expects the JavaScript expression 'EXPR' to evaluate to true, see self-validation expressions below
+#[NUM]          EXPR	Advanced array validation, see schema validation
+#(EXPR)	        For completeness, embedded expressions belong in this list as well
